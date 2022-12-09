@@ -5,7 +5,7 @@ public class BuildAndSendMail {
     public void buildAndSendMail (Mailman m, MailAddress mAddress, Mailbody mBody) {
         // build the mail
         Mail mail = new Mail(mAddress, mBody);
-        // send the mail (x3)
+        // send the mail
         m.sendMail(mail);
     }
         
@@ -26,6 +26,8 @@ public class BuildAndSendMail {
         public MailBody(String subject, MailMessage message) {
             this.subject = subject;
             this.message = message;
+            this.message = message2;
+            this.message = message3;
         }
     }
     
