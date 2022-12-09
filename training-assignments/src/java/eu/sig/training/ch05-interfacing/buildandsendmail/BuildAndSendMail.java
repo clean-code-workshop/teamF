@@ -10,7 +10,7 @@ public class BuildAndSendMail {
             + division.substring(0, 5) + ".compa.ny";
         // Format the message given the content type and raw message
         MailMessage mMessage = formatMessage(font,
-            message1 + message2 + message2);
+            message1 + message2 + message3);
         // Send message
         m.send(mId, subject, mMessage);
     }
