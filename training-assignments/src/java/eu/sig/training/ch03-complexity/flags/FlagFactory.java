@@ -13,7 +13,7 @@ public class FlagFactory {
         case DUTCH:
             result = Arrays.asList(Color.RED, Color.WHITE, Color.BLUE);
             break;
-            case UXEMBURG:
+        case LUXEMBURG:
             result = Arrays.asList(Color.RED, Color.WHITE, Color.BLUE);
             break;
         case GERMAN:
